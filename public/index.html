@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<a class="navbar-brand" href="/">Canister</a>
+		<ul class="nav navbar-nav">
+      		<li class="active"><a href="/movies">Movies</a></li>
+      	</ul>
+		<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" id="movie_name" placeholder="Enter movie name...">
+			</div>
+			<button type="submit" class="btn btn-primary" id="search_button">Search</button>
+		</form>
+	</nav>
+	<div id="movie_list">
+	</div>
+</body>
+</html>
